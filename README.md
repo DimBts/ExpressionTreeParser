@@ -25,10 +25,15 @@ Infix to Postfix or Prefix Convertions and Calculations
 3. Παρέχει επιλογές μέσω μενού:
 
 Enter expression
+
 Calculate expression
+
 Display prefix form
+
 Display postfix form
+
 Print binary tree
+
 Exit
 
 
@@ -36,7 +41,8 @@ Exit
 
 ## Παραδείγματα Χρήσης
 
-Παράδειγμα εισόδου
+![Παράδειγμα εισόδου](images/Expression Tree Parser3.png)
+
 (8+(2*5))
 
 Prefix έξοδος + 8 * 2 5

@@ -41,15 +41,17 @@ Exit
 
 ## Παραδείγματα Χρήσης
 
-![Παράδειγμα εισόδου](images/Expression Tree Parser3.png)
+![Παράδειγμα εισόδου](/images/ExpressionTreeParser3.png)
 
-(8+(2*5))
+![1](/images/ExpressionTreeParser4.png)
 
-Prefix έξοδος + 8 * 2 5
+![2](/images/ExpressionTreeParser5.png)
 
-Postfix έξοδος 8 2 5 * +
+![3](/images/ExpressionTreeParser6.png)
 
-Αποτέλεσμα παράστασης 18
+![4](/images/ExpressionTreeParser8.png)
+
+![5](/images/ExpressionTreeParser2.png)
 
 ## Σημειώσεις
 

@@ -24,20 +24,35 @@ Infix to Postfix or Prefix Convertions and Calculations
 2. Δημιουργεί το δέντρο έκφρασης  
 3. Παρέχει επιλογές μέσω μενού:
 
-1.Enter expression
-
-2.Calculate expression
-
-3.Display prefix form
-
-4.Display postfix form
-
-5.Print binary tree
-
-6.Exit
+Enter expression
+Calculate expression
+Display prefix form
+Display postfix form
+Print binary tree
+Exit
 
 
 ---
+
+## Παραδείγματα Χρήσης
+
+Παράδειγμα εισόδου
+(8+(2*5))
+
+Prefix έξοδος + 8 * 2 5
+
+Postfix έξοδος 8 2 5 * +
+
+Αποτέλεσμα παράστασης 18
+
+## Σημειώσεις
+
+Η παράσταση πρέπει να είναι πλήρως παρενθετοποιημένη (όπως απαιτεί ο parser).
+
+Το πρόγραμμα δεν επιτρέπει μη αριθμητικούς χαρακτήρες και μη ισορροπημένες παρενθέσεις.
+
+Σε λάθος είσοδο, εμφανίζεται μήνυμα σφάλματος και ζητείται νέα έκφραση.
+
 
 ## Δομή Κώδικα
 
@@ -54,11 +69,9 @@ Infix to Postfix or Prefix Convertions and Calculations
 ## Οδηγίες Μεταγλώττισης
 
 ### GCC (Linux / macOS)
-```bash
 gcc -o expression_tree main.c
 ./expression_tree
+
 ### Windows (MinGW)
-bash
-Copy code
 gcc main.c -o expression_tree.exe
 expression_tree.exe
